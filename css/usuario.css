@@ -1,0 +1,34 @@
+.usuarioMenu{
+    display: flex;
+    gap: 0.25rem;
+    background: var(--gray60);
+    border-radius: 1rem;
+}
+.usuario-details {
+    display: flex;
+    gap: 0.25rem;
+    align-items: center;
+}
+.usuario-details img {
+    border-radius: 0.875rem;
+}
+.usuario-details h3 {
+    font: var(--baseFont);
+    padding: 0;
+    margin: 0;
+}
+.buttonIcon{
+inline-size: 2.5rem;
+block-size: 2.5rem;
+background: transparent;
+border-radius: 50%;
+border: 0;
+cursor: pointer;
+color: var(--gray10);
+}
+.usuarioMenu i {
+    font: var(--small);
+}
+.icon-vector:before {
+    content: "\e915";
+}

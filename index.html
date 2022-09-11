@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel = "icon" href = "./images/icon.jpeg" width="12%" height="12">
+
+
+  <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+
+  <title>Spotifu</title>
+<meta property="og:title" content="Spotifu"/>
+<meta property="og:type" content="Music"/>
+<meta property="og:url" content="/"/>
+<meta property="og:image" content="https://tse3.mm.bing.net/th?id=OIP.Qja3d7Lk0h6q0RauddKM6gHaDt&pid=Api&P=0"/>
+<meta property="og:description" content="Escucha la mejor música, solo aquí en Spotifu">
+<meta property="og:description" content="Plataforma para que disfrutes de tu m,úsica favorita">
+</head>
+<body class="body">
+<div class="layout">
+
+  <div class="layout-block">
+
+      <div class="layout-sidebar">
+        <div class="sidebar">
+      
+          <header class="logo">
+            <a href="/" aria-current="page">
+              <img src="./images/spotifu-logo.png" class="logo-image" width="112" height="32" alt="Logo de Spotifu" >
+            </a>
+          </header>
+          
+          <div class="menu" aria-label="Principal">
+            <ul class="menu-list">
+              <li class="menuItem is-active">
+                <a class="link" href="index.html" aria-current="page">
+                  <i class="icon-home" aria-hidden="true"></i>
+                  <span>Inicio</span>
+                </a>
+              </li>
+              <li class="menuItem ">
+                <a class="link" href="index.html">
+                  <i class="icon-search" aria-hidden="true"></i>
+                  <span>Buscar</span>
+                </a>
+              </li>
+              <li class="menuItem ">
+                <a class="link" href="index.html" aria-current="page">
+                  <i class="icon-creditCard" aria-hidden="true"></i>
+                  <span>Premium</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          
+          <nav class="list" aria-labelledby="library-navigation">
+            <h2 class="list-title" id="library-navigation">Tu Biblioteca</h2> 
+            <ul class="list-content">
+              <li class="list-item">
+                <a href="index.html" class="link">Creada para ti</a>
+              </li>
+              <li class="list-item">
+                <a href="index.html" class="link">Escuchado recientemente</a>
+              </li>
+              <li class="list-item">
+                <a href="index.html" class="link">Tus Me Gusta</a>
+              </li>
+            </ul>
+          </nav>
+          
+          <nav class="list" aria-labelledby="playlist-navigation">
+            <h2 class="list-title" id="playlist-navigation">Playlist</h2> 
+            <ul class="list-content">
+              <li class="list-item">
+                <a href="amy.html" class="link">Lo mejor de Amy</a>
+              </li>
+              <li class="list-item">
+                <span class="elipsis">
+        
+                  <a href="nirvana.html" class="link">Populares de Nirvana</a>
+                </span>
+              </li>
+              <li class="list-item">
+                <a href="grupo5.html" class="link">Canta con Grupo 5</a>
+              </li>
+              <li class="list-item">
+                <a href="milder.html" class="link">Escucha Milder</a>
+              </li>
+              <li class="list-item">
+                <a href="calamaro.html" class="link"> Calamaro openings</a>
+              </li>
+              <li class="list-item">
+                <a href="#" class="link">Vilma Palma</a>
+              </li>
+              <li class="list-item">
+                <a href="roses.html" class="link">This is Guns N' Roses</a>
+              </li>
+              <li class="list-item">
+                <a href="#" class="link">Llora con Odell</a>
+              </li>
+              <li class="list-item">
+                <a href="#" class="link">Baila con Soda Stereo </a>
+              </li>
+              <li class="list-item">
+                <a href="#" class="link">Enanitos Verdes</a>
+              </li>
+            </ul>
+          </nav>
+        
+        </div>
+      </div>
+  
+      <div class="layout-main">
+        <div class="page">
+          <div class="sticky">
+            <div class="page-block">
+              <header class="header" aria-label="Barra superior y menú del usuario">
+                <div class="navigation">
+                  <button class="navigation-prev" aria-label="Volver" title="Volver">
+                    <i class="icon-arrowLeft" aria-hidden="true"></i>
+                  </button>
+                  <button class="navigation-next" disabled aria-label="Avanzar" title="Avanzar">
+                    <i class="icon-arrowRight" aria-hidden="true"></i>
+                  </button>
+                </div>
+              
+                  <form class="search" action="#" role="search" aria-label="Buscar por artistas, canciones o podcast">
+                    <i class="icon-search" aria-hidden="true"></i>
+                    <input type="search" placeholder="Buscar por artistas, canciones o podcast">
+                  </form>
+
+                  <div class="usuarioMenu">
+                    <div class="usuario-details">
+                        <img src="./images/usuario.jpeg" width="28" height="28" alt="Foto de perfil de Jhonatan Torres" title="Foto de perfil de Jhonatan Torres">
+                        <h3>Jhonatan Torres</h3>
+                    </div>
+                    <button class="buttonIcon">
+                        <i class="icon-vector">
+
+                        </i>
+                    </button>
+                </div>
+              
+              </header>
+            </div>
+          </div>
+        
+          <main class="page-block">
+            <section class="playlistList" aria-labelledby="region1">
+            <div class="playlistList-top">
+              <h2 class="playlistList-title" id="region1">Buenas noches
+              </h2>
+              <div class="navigation">
+                <button class="navigation-prev" aria-label="Volver" title="Volver">
+                  <i class="icon-arrowLeft" aria-hidden="true"></i>
+                </button>
+                <button class="navigation-next" disabled aria-label="Avanzar" title="Avanzar">
+                  <i class="icon-arrowRight" aria-hidden="true"></i>
+                </button>
+              </div>
+            </div>
+          
+            <div class="playlistList-container">
+              <div class="playlistB">
+                <div class="playlistB-cover">
+                  <img src="./images/amy.jpeg" width="76" height="76" alt="Cover de la play list Anime Hits">
+                </div>
+                <div class="playlistB-details">
+                  <h3 class="playlistB-title">Amy Winehouse</h3>
+                  <div class="playlistB-control">
+                    <a href="https://www.youtube.com/watch?v=KUmZp8pR1uc">
+                    <button class="buttonIcon is-primary" title="Reproducir la lista de Amy Winehouse" aria-label="Reproducir la lista de Amy Winehouse">
+                      <i class="icon-play" aria-hidden="true"></i>
+                    </button>
+                    </a>
+                  </div>
+                </div>
+              
+              </div>
+              <div class="playlistB">
+                <div class="playlistB-cover">
+                  <img src="./images/enanitos.jpeg" width="76" height="76" alt="Enanitos Verdes">
+                </div>
+                <div class="playlistB-details">
+                  <h3 class="playlistB-title">Enanitos Verdes</h3>
+                  <div class="playlistB-control">
+                    <a href="https://www.youtube.com/watch?v=0A0d5f1eNhQ">
+                    <button class="buttonIcon is-primary" title="Reproducir la lista de Enanitos Verdes" aria-label="Reproducir la lista de Enanitos Verdes">
+                      <i class="icon-play" aria-hidden="true"></i>
+                    </button>
+                    </a>
+                  </div>
+                </div>
+              
+              </div>
+              <div class="playlistB">
+                <div class="playlistB-cover">
+                  <img src="./images/grupo5.jpeg" width="76" height="76" alt="Grupo 5">
+                </div>
+                <div class="playlistB-details">
+                  <h3 class="playlistB-title">Grupo 5</h3>
+                  <div class="playlistB-control">
+                    <a href="https://www.youtube.com/watch?v=PGEC9n0bhXA">
+                    <button class="buttonIcon is-primary" title="Reproducir la lista de Grupo 5" aria-label="Reproducir la lista de Grupo 5">
+                      <i class="icon-play" aria-hidden="true"></i>
+                    </button>
+                    </a>
+                  </div>
+                </div>
+              
+              </div>
+              <div class="playlistB">
+                <div class="playlistB-cover">
+                  <img src="./images/guns.jpeg" width="76" height="76" alt="Guns N' Roses">
+                </div>
+                <div class="playlistB-details">
+                  <h3 class="playlistB-title">Guns N' Roses</h3>
+                  <div class="playlistB-control">
+                    <a href="https://www.youtube.com/watch?v=zRIbf6JqkNc">
+                    <button class="buttonIcon is-primary" title="Reproducir la lista de Guns N' Roses" aria-label="Reproducir la lista de Guns N' Roses">
+                      <i class="icon-play" aria-hidden="true"></i>
+                    </button>
+                    </a>
+                  </div>
+                </div>
+              
+              </div>
+              <div class="playlistB">
+                <div class="playlistB-cover">
+                  <img src="./images/milder.jpeg" width="76" height="76" alt="Milder Oré">
+                </div>
+                <div class="playlistB-details">
+                  <h3 class="playlistB-title">Milder Oré</h3>
+                  <div class="playlistB-control">
+                    <a href="https://www.youtube.com/watch?v=YXuT0X5iTw4">
+                      <button class="buttonIcon is-primary" title="Reproducir la lista de Milder Oré" aria-label="Reproducir la lista de Milder Oré">
+                        <i class="icon-play" aria-hidden="true"></i>
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              
+              </div>
+              <div class="playlistB">
+                <div class="playlistB-cover">
+                  <img src="./images/nirvana.jpeg" width="76" height="76" alt="Nirvana">
+                </div>
+                <div class="playlistB-details">
+                  
+                  <h3 class="playlistB-title">Nirvana</h3>
+                  <div class="playlistB-control">
+                    <a href="https://www.youtube.com/watch?v=hTWKbfoikeg">
+                    <button  class="buttonIcon is-primary" title="Reproducir la lista de Nirvana" aria-label="Reproducir la lista de Nirvana">
+                      <i class="icon-play" aria-hidden="true">
+                      </i>
+                    </button>
+                  </a>
+                  </div>
+                </div>
+              
+              </div>
+              <div class="playlistB">
+                <div class="playlistB-cover">
+                  <img src="./images/soda.jpeg" width="76" height="76" alt="Soda Stereo">
+                </div>
+                <div class="playlistB-details">
+                  <h3 class="playlistB-title">Soda Stereo</h3>
+                  <div class="playlistB-control">
+                    <a href="https://www.youtube.com/watch?v=OX-us7PEfkc">
+                      <button class="buttonIcon is-primary" title="Reproducir la lista de Soda Stereo" aria-label="Reproducir la lista de Soda Stereo">
+                        <i class="icon-play" aria-hidden="true"></i>
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              
+              </div>
+              <div class="playlistB">
+                <div class="playlistB-cover">
+                  <img src="./images/tom.jpeg" width="76" height="76" alt="Tom Odell">
+                </div>
+                <div class="playlistB-details">
+                  <h3 class="playlistB-title">Tom Odell</h3>
+                  <div class="playlistB-control">
+                    <a href="https://www.youtube.com/watch?v=MwpMEbgC7DA">
+                      <button class="buttonIcon is-primary" title="Reproducir la lista de Tom Odell" aria-label="Reproducir la lista de Tom Odell">
+                        <i class="icon-play" aria-hidden="true"></i>
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              
+              </div>
+              <div class="playlistB">
+                <div class="playlistB-cover">
+                  <img src="./images/vilma.jpeg" width="76" height="76" alt="Vilma Palma e Vampiros">
+                </div>
+                <div class="playlistB-details">
+                  <h3 class="playlistB-title">Vilma Palma e Vampiros</h3>
+                  <div class="playlistB-control">
+                    <a href="https://www.youtube.com/watch?v=95kf6cCasfg">
+
+                      <button class="buttonIcon is-primary" title="Reproducir la lista de Vilma Palma e Vampiros" aria-label="Reproducir la lista de Vilma Palma e Vampiros">
+                        <i class="icon-play" aria-hidden="true"></i>
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              
+              </div>
+              <div class="playlistB">
+                <div class="playlistB-cover">
+                  <img src="./images/andres.jpeg" width="76" height="76" alt="Andrés Calamaro">
+                </div>
+                <div class="playlistB-details">
+                  <h3 class="playlistB-title">Andrés Calamaro</h3>
+                  <div class="playlistB-control">
+                    <a href="https://www.youtube.com/watch?v=UCF9oHXhDMU">
+                      <button class="buttonIcon is-primary" title="Reproducir la lista de Andrés Calamaro" aria-label="Reproducir la lista de Andrés Calamaro">
+                        <i class="icon-play" aria-hidden="true"></i>
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              
+              </div>
+            </div>
+              </section>
+          
+            <section class="playlistList" aria-labelledby="region2">
+            <div class="playlistList-top">
+              <h2 class="playlistList-title" id="region2">Escuchado recientemente</h2>
+              <div class="navigation">
+                <button class="navigation-prev" aria-label="Volver" title="Volver">
+                  <i class="icon-arrowLeft" aria-hidden="true"></i>
+                </button>
+                <button class="navigation-next" disabled aria-label="Avanzar" title="Avanzar">
+                  <i class="icon-arrowRight" aria-hidden="true"></i>
+                </button>
+              </div>
+            </div>
+          
+            <div class="playlistList-container">
+              <div class="playlistA">
+                <div class="playlistA-cover">
+                  <img src="./images/amy.jpeg" width="150" height="150" alt="Cover de la play list Anime Hits">
+                  <a href="https://www.youtube.com/watch?v=KUmZp8pR1uc">
+
+                    <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                      <i class="icon-play" aria-hidden="true"></i>
+                    </button>
+                  </a>
+                </div>
+                <h3 class="playlistA-title">Amy Winehouse</h3>
+                <h4 class=#playlistA-description>Rehab </h4>
+              </div>
+              <div class="playlistA">
+                <div class="playlistA-cover">
+                  <img src="./images/enanitos.jpeg" width="150" height="150" alt="Lamento boliviano">
+
+                  <a href="https://www.youtube.com/watch?v=0A0d5f1eNhQ">
+                    <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                      <i class="icon-play" aria-hidden="true"></i>
+                    </button>
+                  </a>
+                </div>
+                <h3 class="playlistA-title">Enanitos Verdes</h3>
+                <h4 class=#playlistA-description>Lamento boliviano</h4>
+              </div>
+              <div class="playlistA">
+                <div class="playlistA-cover">
+                  <img src="./images/grupo5.jpeg" width="150" height="150" alt="Grupo 5">
+                  <a href="https://www.youtube.com/watch?v=PGEC9n0bhXA">
+                  <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                    <i class="icon-play" aria-hidden="true"></i>
+                  </button>
+                  </a>
+                </div>
+                <h3 class="playlistA-title">Grupo 5</h3>
+                <h4 class=#playlistA-description>El ritmo de mi corazón</h4>
+              </div>
+              <div class="playlistA">
+                <div class="playlistA-cover">
+                  <img src="./images/guns.jpeg" width="150" height="150" alt="Guns N' Roses">
+                  <a href="https://www.youtube.com/watch?v=zRIbf6JqkNc">
+                  <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                    <i class="icon-play" aria-hidden="true"></i>
+                  </button>
+                  </a>
+                </div>
+                <h3 class="playlistA-title">Guns N' Roses</h3>
+                <h4 class=#playlistA-description>Don't Cry</h4>
+              </div>
+              <div class="playlistA">
+                <div class="playlistA-cover">
+                  <img src="./images/milder.jpeg" width="150" height="150" alt="Milder Oré">
+                  <a href="https://www.youtube.com/watch?v=YXuT0X5iTw4">
+                    <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                      <i class="icon-play" aria-hidden="true"></i>
+                    </button>
+                  </a>
+                </div>
+                <h3 class="playlistA-title">Milder Oré</h3>
+                <h4 class=#playlistA-description>Sin pensar me enamoré</h4>
+              </div>
+              <div class="playlistA">
+                <div class="playlistA-cover">
+                  <img src="./images/nirvana.jpeg" width="150" height="150" alt="Nirvana">
+                  <a href="https://www.youtube.com/watch?v=hTWKbfoikeg">
+
+                    <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                      <i class="icon-play" aria-hidden="true"></i>
+                    </button>
+                  </a>
+                </div>
+                <h3 class="playlistA-title">Nirvana</h3>
+                <h4 class=#playlistA-description>Smells Like Teen Spirit</h4>
+              </div>
+              <div class="playlistA">
+                <div class="playlistA-cover">
+                  <img src="./images/soda.jpeg" width="150" height="150" alt="Soda Stereo">
+                  <a href="https://www.youtube.com/watch?v=OX-us7PEfkc">
+                    <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                      <i class="icon-play" aria-hidden="true"></i>
+                    </button>
+                  </a>
+                </div>
+                <h3 class="playlistA-title">Soda Stereo</h3>
+                <h4 class=#playlistA-description>De música ligera</h4>
+              </div>
+              <div class="playlistA">
+                <div class="playlistA-cover">
+                  <img src="./images/tom.jpeg" width="150" height="150" alt="Tom Odell">
+                  <a href="https://www.youtube.com/watch?v=MwpMEbgC7DA">
+
+                    <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                      <i class="icon-play" aria-hidden="true"></i>
+                    </button>
+                  </a>
+                </div>
+                <h3 class="playlistA-title">Tom Odell</h3>
+                <h4 class=#playlistA-description>Another Love</h4>
+              </div>
+              <div class="playlistA">
+                <div class="playlistA-cover">
+                  <img src="./images/vilma.jpeg" width="150" height="150" alt="Vilma Palma e Vampiros ">
+                  <a href="https://www.youtube.com/watch?v=95kf6cCasfg">
+                    <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                      <i class="icon-play" aria-hidden="true"></i>
+                    </button>
+                  </a>
+                </div>
+                <h3 class="playlistA-title">Vilma Palma e Vampiros </h3>
+                <h4 class=#playlistA-description>Auto Rojo</h4>
+              </div>
+              <div class="playlistA">
+                <div class="playlistA-cover">
+                  <img src="./images/andres.jpeg" width="150" height="150" alt="Andrés Calamaro">
+                  <a href="https://www.youtube.com/watch?v=UCF9oHXhDMU">
+                    <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                      <i class="icon-play" aria-hidden="true"></i>
+                    </button>
+                  </a>
+                </div>
+                <h3 class="playlistA-title">Andrés Calamaro</h3>
+                <h4 class=#playlistA-description>Flaca</h4>
+              </div>
+            </div>
+            </section>
+            <section class="playlistList" aria-labelledby="region3">
+              <div class="playlistList-top">
+                <h2 class="playlistList-title" id="region3">Podcast</h2>
+                <div class="navigation">
+                  <button class="navigation-prev" aria-label="Volver" title="Volver">
+                    <i class="icon-arrowLeft" aria-hidden="true"></i>
+                  </button>
+                  <button class="navigation-next" disabled aria-label="Avanzar" title="Avanzar">
+                    <i class="icon-arrowRight" aria-hidden="true"></i>
+                  </button>
+                </div>
+              </div>
+            
+              <div class="playlistList-container">
+                <div class="playlistA">
+                  <div class="playlistA-cover">
+                    <img src="./images/amy.jpeg" width="150" height="150" alt="Cover de la play list Anime Hits">
+                    <a href="https://www.youtube.com/watch?v=KUmZp8pR1uc">
+  
+                      <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                        <i class="icon-play" aria-hidden="true"></i>
+                      </button>
+                    </a>
+                  </div>
+                  <h3 class="playlistA-title">Amy Winehouse</h3>
+                  <h4 class=#playlistA-description>Rehab </h4>
+                </div>
+                <div class="playlistA">
+                  <div class="playlistA-cover">
+                    <img src="./images/enanitos.jpeg" width="150" height="150" alt="Lamento boliviano">
+  
+                    <a href="https://www.youtube.com/watch?v=0A0d5f1eNhQ">
+                      <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                        <i class="icon-play" aria-hidden="true"></i>
+                      </button>
+                    </a>
+                  </div>
+                  <h3 class="playlistA-title">Enanitos Verdes</h3>
+                  <h4 class=#playlistA-description>Lamento boliviano</h4>
+                </div>
+                <div class="playlistA">
+                  <div class="playlistA-cover">
+                    <img src="./images/grupo5.jpeg" width="150" height="150" alt="Grupo 5">
+                    <a href="https://www.youtube.com/watch?v=PGEC9n0bhXA">
+                    <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                      <i class="icon-play" aria-hidden="true"></i>
+                    </button>
+                    </a>
+                  </div>
+                  <h3 class="playlistA-title">Grupo 5</h3>
+                  <h4 class=#playlistA-description>El ritmo de mi corazón</h4>
+                </div>
+                <div class="playlistA">
+                  <div class="playlistA-cover">
+                    <img src="./images/guns.jpeg" width="150" height="150" alt="Guns N' Roses">
+                    <a href="https://www.youtube.com/watch?v=zRIbf6JqkNc">
+                    <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                      <i class="icon-play" aria-hidden="true"></i>
+                    </button>
+                    </a>
+                  </div>
+                  <h3 class="playlistA-title">Guns N' Roses</h3>
+                  <h4 class=#playlistA-description>Don't Cry</h4>
+                </div>
+                <div class="playlistA">
+                  <div class="playlistA-cover">
+                    <img src="./images/milder.jpeg" width="150" height="150" alt="Milder Oré">
+                    <a href="https://www.youtube.com/watch?v=YXuT0X5iTw4">
+                      <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                        <i class="icon-play" aria-hidden="true"></i>
+                      </button>
+                    </a>
+                  </div>
+                  <h3 class="playlistA-title">Milder Oré</h3>
+                  <h4 class=#playlistA-description>Sin pensar me enamoré</h4>
+                </div>
+                <div class="playlistA">
+                  <div class="playlistA-cover">
+                    <img src="./images/nirvana.jpeg" width="150" height="150" alt="Nirvana">
+                    <a href="https://www.youtube.com/watch?v=hTWKbfoikeg">
+  
+                      <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                        <i class="icon-play" aria-hidden="true"></i>
+                      </button>
+                    </a>
+                  </div>
+                  <h3 class="playlistA-title">Nirvana</h3>
+                  <h4 class=#playlistA-description>Smells Like Teen Spirit</h4>
+                </div>
+                <div class="playlistA">
+                  <div class="playlistA-cover">
+                    <img src="./images/soda.jpeg" width="150" height="150" alt="Soda Stereo">
+                    <a href="https://www.youtube.com/watch?v=OX-us7PEfkc">
+                      <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                        <i class="icon-play" aria-hidden="true"></i>
+                      </button>
+                    </a>
+                  </div>
+                  <h3 class="playlistA-title">Soda Stereo</h3>
+                  <h4 class=#playlistA-description>De música ligera</h4>
+                </div>
+                <div class="playlistA">
+                  <div class="playlistA-cover">
+                    <img src="./images/tom.jpeg" width="150" height="150" alt="Tom Odell">
+                    <a href="https://www.youtube.com/watch?v=MwpMEbgC7DA">
+  
+                      <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                        <i class="icon-play" aria-hidden="true"></i>
+                      </button>
+                    </a>
+                  </div>
+                  <h3 class="playlistA-title">Tom Odell</h3>
+                  <h4 class=#playlistA-description>Another Love</h4>
+                </div>
+                <div class="playlistA">
+                  <div class="playlistA-cover">
+                    <img src="./images/vilma.jpeg" width="150" height="150" alt="Vilma Palma e Vampiros ">
+                    <a href="https://www.youtube.com/watch?v=95kf6cCasfg">
+                      <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                        <i class="icon-play" aria-hidden="true"></i>
+                      </button>
+                    </a>
+                  </div>
+                  <h3 class="playlistA-title">Vilma Palma e Vampiros </h3>
+                  <h4 class=#playlistA-description>Auto Rojo</h4>
+                </div>
+                <div class="playlistA">
+                  <div class="playlistA-cover">
+                    <img src="./images/andres.jpeg" width="150" height="150" alt="Andrés Calamaro">
+                    <a href="https://www.youtube.com/watch?v=UCF9oHXhDMU">
+                      <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                        <i class="icon-play" aria-hidden="true"></i>
+                      </button>
+                    </a>
+                  </div>
+                  <h3 class="playlistA-title">Andrés Calamaro</h3>
+                  <h4 class=#playlistA-description>Flaca</h4>
+                </div>
+              </div>
+              </section>
+              <section class="playlistList" aria-labelledby="region4">
+                <div class="playlistList-top">
+                  <h2 class="playlistList-title" id="region4">Lo mejor de lo mejor</h2>
+                  <div class="navigation">
+                    <button class="navigation-prev" aria-label="Volver" title="Volver">
+                      <i class="icon-arrowLeft" aria-hidden="true"></i>
+                    </button>
+                    <button class="navigation-next" disabled aria-label="Avanzar" title="Avanzar">
+                      <i class="icon-arrowRight" aria-hidden="true"></i>
+                    </button>
+                  </div>
+                </div>
+              
+                <div class="playlistList-container">
+                  <div class="playlistA">
+                    <div class="playlistA-cover">
+                      <img src="./images/amy.jpeg" width="150" height="150" alt="Cover de la play list Anime Hits">
+                      <a href="https://www.youtube.com/watch?v=KUmZp8pR1uc">
+    
+                        <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                          <i class="icon-play" aria-hidden="true"></i>
+                        </button>
+                      </a>
+                    </div>
+                    <h3 class="playlistA-title">Amy Winehouse</h3>
+                    <h4 class=#playlistA-description>Rehab </h4>
+                  </div>
+                  <div class="playlistA">
+                    <div class="playlistA-cover">
+                      <img src="./images/enanitos.jpeg" width="150" height="150" alt="Lamento boliviano">
+    
+                      <a href="https://www.youtube.com/watch?v=0A0d5f1eNhQ">
+                        <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                          <i class="icon-play" aria-hidden="true"></i>
+                        </button>
+                      </a>
+                    </div>
+                    <h3 class="playlistA-title">Enanitos Verdes</h3>
+                    <h4 class=#playlistA-description>Lamento boliviano</h4>
+                  </div>
+                  <div class="playlistA">
+                    <div class="playlistA-cover">
+                      <img src="./images/grupo5.jpeg" width="150" height="150" alt="Grupo 5">
+                      <a href="https://www.youtube.com/watch?v=PGEC9n0bhXA">
+                      <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                        <i class="icon-play" aria-hidden="true"></i>
+                      </button>
+                      </a>
+                    </div>
+                    <h3 class="playlistA-title">Grupo 5</h3>
+                    <h4 class=#playlistA-description>El ritmo de mi corazón</h4>
+                  </div>
+                  <div class="playlistA">
+                    <div class="playlistA-cover">
+                      <img src="./images/guns.jpeg" width="150" height="150" alt="Guns N' Roses">
+                      <a href="https://www.youtube.com/watch?v=zRIbf6JqkNc">
+                      <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                        <i class="icon-play" aria-hidden="true"></i>
+                      </button>
+                      </a>
+                    </div>
+                    <h3 class="playlistA-title">Guns N' Roses</h3>
+                    <h4 class=#playlistA-description>Don't Cry</h4>
+                  </div>
+                  <div class="playlistA">
+                    <div class="playlistA-cover">
+                      <img src="./images/milder.jpeg" width="150" height="150" alt="Milder Oré">
+                      <a href="https://www.youtube.com/watch?v=YXuT0X5iTw4">
+                        <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                          <i class="icon-play" aria-hidden="true"></i>
+                        </button>
+                      </a>
+                    </div>
+                    <h3 class="playlistA-title">Milder Oré</h3>
+                    <h4 class=#playlistA-description>Sin pensar me enamoré</h4>
+                  </div>
+                  <div class="playlistA">
+                    <div class="playlistA-cover">
+                      <img src="./images/nirvana.jpeg" width="150" height="150" alt="Nirvana">
+                      <a href="https://www.youtube.com/watch?v=hTWKbfoikeg">
+    
+                        <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                          <i class="icon-play" aria-hidden="true"></i>
+                        </button>
+                      </a>
+                    </div>
+                    <h3 class="playlistA-title">Nirvana</h3>
+                    <h4 class=#playlistA-description>Smells Like Teen Spirit</h4>
+                  </div>
+                  <div class="playlistA">
+                    <div class="playlistA-cover">
+                      <img src="./images/soda.jpeg" width="150" height="150" alt="Soda Stereo">
+                      <a href="https://www.youtube.com/watch?v=OX-us7PEfkc">
+                        <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                          <i class="icon-play" aria-hidden="true"></i>
+                        </button>
+                      </a>
+                    </div>
+                    <h3 class="playlistA-title">Soda Stereo</h3>
+                    <h4 class=#playlistA-description>De música ligera</h4>
+                  </div>
+                  <div class="playlistA">
+                    <div class="playlistA-cover">
+                      <img src="./images/tom.jpeg" width="150" height="150" alt="Tom Odell">
+                      <a href="https://www.youtube.com/watch?v=MwpMEbgC7DA">
+    
+                        <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                          <i class="icon-play" aria-hidden="true"></i>
+                        </button>
+                      </a>
+                    </div>
+                    <h3 class="playlistA-title">Tom Odell</h3>
+                    <h4 class=#playlistA-description>Another Love</h4>
+                  </div>
+                  <div class="playlistA">
+                    <div class="playlistA-cover">
+                      <img src="./images/vilma.jpeg" width="150" height="150" alt="Vilma Palma e Vampiros ">
+                      <a href="https://www.youtube.com/watch?v=95kf6cCasfg">
+                        <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                          <i class="icon-play" aria-hidden="true"></i>
+                        </button>
+                      </a>
+                    </div>
+                    <h3 class="playlistA-title">Vilma Palma e Vampiros </h3>
+                    <h4 class=#playlistA-description>Auto Rojo</h4>
+                  </div>
+                  <div class="playlistA">
+                    <div class="playlistA-cover">
+                      <img src="./images/andres.jpeg" width="150" height="150" alt="Andrés Calamaro">
+                      <a href="https://www.youtube.com/watch?v=UCF9oHXhDMU">
+                        <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                          <i class="icon-play" aria-hidden="true"></i>
+                        </button>
+                      </a>
+                    </div>
+                    <h3 class="playlistA-title">Andrés Calamaro</h3>
+                    <h4 class=#playlistA-description>Flaca</h4>
+                  </div>
+                </div>
+                </section>
+          </main>
+        
+        </div>
+      </div>
+  </div>
+
+  <div class="layout-block">
+  <footer class="layout-bottom">
+    <div class="player">
+    <div class="player-nowPlaying">
+      <div class="nowPlaying">
+        <div class="nowPlaying-cover">
+          <img src="./images/grand-scape.png" alt="Portada de Grand Escape (feat. Tokio Miura) de RADWIMPS, Toko Miura" title="Portada de Grand Escape (feat. Tokio Miura) de RADWIMPS, Toko Miura">
+        </div>
+        <div class="nowPlaying-details">
+          <div class="nowPlaying-description">
+            <a href="#song" class="nowPlaying-title">Grand Escape (feat. Tokio Miura)
+    
+            </a>
+            <a href="#artistas" class="nowPlaying-artist">RADWIMPS, Toko Miura
+              
+            </a>
+          </div>
+          <div class="nowPlaying-action">
+            <button class="player-control" role="switch" aria-checked="false" aria-label="Guardar en tu biblioteca" title="Guardar en tu biblioteca">
+              <i class="icon-heart"  aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="player-playerControls">
+      <div class="playerControls">
+        <div class="playerControls-button"  aria-label="Controles de Reproducción">
+          <button class="buttonIcon" aria-label="Anterior" title="Anterior">
+            <i class="icon-prev" aria-hidden="true"></i>
+          </button>
+        
+          <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+            <i class="icon-play" aria-hidden="true"></i>
+          </button>
+      
+          <button class="buttonIcon" aria-label="Siguiente" title="Siguiente">
+            <i class="icon-next" aria-hidden="true"></i>
+          </button>
+        </div>
+        <div class="playerPlayback">
+          <span class="playerPlayback-progressTime">01:40</span>
+          <div class="playerPlayback-slider">
+            <div class="slider">
+            <div class="slider-progress">
+              <button class="slider-button" aria-label="controlar el progreso de la reproducción"></button>
+            </div>
+          </div>
+          </div>
+        <span class="playerPlayback-progressTime">01:40</span>
+        </div>
+      </div>
+    </div>
+  
+    <div class="player-playerVolume">
+      <div class="playerVolume">
+        <button class="player-control"  aria-describedby="volume-icon">
+          <i class="icon-volumeUp" id="volume-icon" role="presentation" aria-label="Volumen alto"></i>
+        </button>
+        <div class="playerVolume-slider">
+          <div class="slider">
+            <div class="slider-progress">
+              <button class="slider-button" aria-label="controlar el progreso de la reproducción"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    </div>
+  </footer>
+  </div>
+  
+</div>
+
+  
+</body>
+</html>
+
+
+

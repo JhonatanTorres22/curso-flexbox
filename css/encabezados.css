@@ -1,0 +1,39 @@
+.encabezados {
+    display: flex;
+    margin-inline-start: 6rem;
+    justify-content: space-between;
+    align-items: center;
+}
+h4 {
+    display: block;
+    margin-block-start: 1.4em;
+    margin-block-end: 1.4em;
+    margin-inline-start: 1rem;
+    margin-inline-end: 1rem;
+    font-weight: bold;
+}
+.buttonIcon {
+    inline-size: 2.5rem;
+    block-size: 2.5rem;
+    background: transparent;
+    border-radius: 50%;
+    border: 0;
+    cursor: pointer;
+    color: var(--gray10);
+}
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'icomoon' !important;
+    /* speak: never; */
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.icon-calendar:before {
+    content: "\e903";
+}
+
+

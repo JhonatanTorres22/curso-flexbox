@@ -1,0 +1,10 @@
+#layout-creada{
+    background: url(../images/img-1.jpg);
+    background-size: cover;
+    display: flex;
+}
+
+.layout-main {
+    block-size: calc(100vh - var(--bottomSize));
+    overflow: auto;
+}

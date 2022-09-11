@@ -1,0 +1,36 @@
+
+@import './playlist-a.css';
+@import './playlist-b.css';
+.playlistList{
+    padding: 1rem;
+}
+.playlistList-top{
+    padding-block-end:.5rem ;
+    padding-block-start:.5rem ;
+    margin-block-end: 1rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;
+
+}
+
+.playlistList-title{
+    font: var(--headline2);
+    color: var(--white);
+    margin: 0;
+}
+.playlistList-container{
+    
+    overflow-x: auto;
+    gap: 1rem;
+    display: flex;
+    
+}
+
+/* ::-webkit-scrollbar {
+    display: none;
+} */
+.playlistList-container > *{
+    flex-shrink: 0;
+}

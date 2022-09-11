@@ -1,0 +1,30 @@
+.creaElementos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-inline-size: 63rem;
+    
+}
+.creaElementos h3 {
+    font: var(--headline1);
+    color: var(--white);
+    margin: 0;
+}
+.h4-creada {
+    margin-block: 1rem;
+}
+.creaElementos h4 {
+    font: var(--baseFont);
+    color: var(--white);
+    margin: 0;
+}
+.repro-creada {
+    padding-inline: 2rem;
+    padding-block: 0.5rem;
+    font: var(--baseFont);
+    background: var(--primary);
+    color: var(--white);
+    border-radius: 2rem;
+    cursor: pointer;
+}

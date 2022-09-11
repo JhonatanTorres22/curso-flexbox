@@ -1,0 +1,61 @@
+
+@import './fonts.css';
+@import './icons.css';
+@import './body.css';
+@import './link.css';
+@import './button-icon.css';
+@import './sidebar.css';
+@import './elipsis.css';
+@import './player.css';
+@import './page.css';
+@import './layout.css';
+@import './scrollbar.css';
+@import './usuario.css';
+@import './creada.css';
+@import './filtrar.css';
+@import './encabezados.css';
+@import './canciones.css';
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+  font-family: 'Avenir';
+  src: url("../fonts/AvenirLTStd-Roman.otf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root { 
+  font-size: 16px;
+  --primary: #00b050; 
+  --white: #ffffff; 
+  --gray10: #b3b3b3; 
+  --gray20: #737373; 
+  --gray30: #282828; 
+  --gray40: #181818; 
+  --gray50: #121212; 
+  --gray60: #000000; 
+
+  --basefontFamily: Avenir, Helvetica, sans-serif;
+
+  --headline1: bold 2rem/normal var(--basefontFamily); 
+  --headline2: bold 1.5rem/1.75rem var(--basefontFamily); 
+  --baseFont: normal 0.875rem/1.375rem var(--basefontFamily); 
+  --basefontBold: bold 0.875rem/1.375rem var(--basefontFamily); 
+  --button: bold 0.875rem/1rem var(--basefontFamily); 
+  --subtitle2: normal 0.75rem/normal 'Avenir'; 
+  --small: normal .75em/normal 'Avenir'; 
+}
+
+

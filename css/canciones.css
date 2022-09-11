@@ -1,0 +1,36 @@
+
+.canciones {
+    display: flex;
+    align-items:center ;
+     justify-content: space-between;
+    gap: 1rem;
+}
+
+.buttonIcon {
+    inline-size: 2.5rem;
+    block-size: 2.5rem;
+    background: transparent;
+    border-radius: 50%;
+    border: 0;
+    cursor: pointer;
+    color: var(--gray10);
+}
+.buttonIcon .icon-play {
+    position: relative;
+    inset-inline-start: 1px;
+    inset-block-start: 1px;
+}
+.icon-play:before {
+    content: "\e910";
+}
+.canciones-playlist {
+    display: flex;
+    gap: 8rem;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
